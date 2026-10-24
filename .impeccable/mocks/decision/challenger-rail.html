@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --bone: #f1ece2;
+        --ink: #1b1a17;
+        --mute: #615c52;
+        --ver: #c4422b;
+        --rule: #1b1a17;
+      }
+      body {
+        width: 1440px;
+        height: 900px;
+        overflow: hidden;
+        background: var(--bone);
+        color: var(--ink);
+        font-family: "Source Serif 4", serif;
+      }
+      header {
+        height: 56px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        padding: 0 64px;
+        border-bottom: 1px solid var(--rule);
+        font-variant: small-caps;
+        letter-spacing: 0.06em;
+      }
+      header b {
+        font-size: 18px;
+      }
+      header nav {
+        display: flex;
+        gap: 24px;
+        font-size: 15px;
+        color: var(--mute);
+      }
+      header nav .on {
+        color: var(--ver);
+      }
+      .page {
+        display: grid;
+        grid-template-columns: 280px 1fr 280px;
+        gap: 0;
+        padding: 40px 64px;
+      }
+      .margin {
+        font-size: 13px;
+        color: var(--mute);
+        line-height: 1.5;
+        padding-right: 32px;
+      }
+      .margin.r {
+        padding: 0 0 0 32px;
+      }
+      .margin h4 {
+        font-variant: small-caps;
+        letter-spacing: 0.08em;
+        font-size: 13px;
+        color: var(--ver);
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .big {
+        font-size: 56px;
+        color: var(--ink);
+        line-height: 1;
+      }
+      .block h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: center;
+        max-width: 30ch;
+        margin: 0 auto;
+      }
+      .block .sub {
+        text-align: center;
+        font-style: italic;
+        color: var(--mute);
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      .twin {
+        display: grid;
+        grid-template-columns: 1fr 64px 1fr;
+        margin-top: 32px;
+        border-top: 1px solid var(--rule);
+      }
+      .twin h2 {
+        font-variant: small-caps;
+        letter-spacing: 0.08em;
+        font-size: 15px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--rule);
+      }
+      .rail {
+        border-left: 1px solid var(--ver);
+        border-right: 1px solid var(--ver);
+        display: grid;
+        align-content: start;
+        justify-items: center;
+        gap: 56px;
+        padding-top: 54px;
+        color: var(--ver);
+        font-variant: small-caps;
+        font-size: 13px;
+      }
+      .q {
+        padding: 14px 16px 14px 0;
+        font-size: 16px;
+        line-height: 1.5;
+        border-bottom: 1px solid #cfc8ba;
+      }
+      .neg .q {
+        padding: 14px 0 14px 16px;
+      }
+      .neg h2 {
+        padding-left: 16px;
+      }
+      .q small {
+        display: block;
+        font-size: 12px;
+        color: var(--mute);
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>FounderHub</b>
+      <nav>
+        <span class="on">hypotheses</span><span>customers</span><span>market</span
+        ><span>report</span><span>activity</span>
+      </nav>
+    </header>
+    <div class="page">
+      <aside class="margin">
+        <h4>confidence</h4>
+        <p class="big">33%</p>
+        <p>Down from 62% after nine quotes across four kinds of source.</p>
+        <br />
+        <h4>disproved if</h4>
+        <p>Fewer than 1 in 5 interviewees name a price of $15 a month or more.</p>
+      </aside>
+      <section class="block">
+        <h1>Student founders will pay $20 a month for research they can trust.</h1>
+        <p class="sub">Willingness to pay · the sixth of six hypotheses</p>
+        <div class="twin">
+          <div>
+            <h2>supports · 3</h2>
+            <p class="q">
+              “Twenty bucks a month is fine if it saves me a weekend of Googling market
+              reports.”<small>reddit · oct 21</small>
+            </p>
+            <p class="q">
+              “I'd pay for it if every number links back to where it came from.”<small
+                >waitlist · oct 22</small
+              >
+            </p>
+          </div>
+          <div class="rail"><span>R</span><span>W</span><span>I</span></div>
+          <div class="neg">
+            <h2>disproves · 6</h2>
+            <p class="q">
+              “Students don't pay for tools. We use free tiers until someone makes us.”<small
+                >interview · rosa · oct 24</small
+              >
+            </p>
+            <p class="q">
+              “Individual subscriptions churn after the semester.”<small>report · oct 20</small>
+            </p>
+          </div>
+        </div>
+      </section>
+      <aside class="margin r">
+        <h4>ask next</h4>
+        <p>What have you paid for in the last month to help your startup, and who paid for it?</p>
+        <br />
+        <h4>still unknown</h4>
+        <p>No one has said whether a club or school would pay instead of the founder.</p>
+      </aside>
+    </div>
+  </body>
+</html>

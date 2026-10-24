@@ -1,0 +1,173 @@
+{
+  "title": "Choose FounderHub's visual world",
+  "question": "The roll assigned Line Map. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Line Map",
+      "kicker": "THE ROLL",
+      "lineage": "Bay Area transit system maps and station wayfinding",
+      "thesis": "Every hypothesis is a line; every quote is a stop on its way to a score.",
+      "palette": ["#14233c", "#e9e7e2", "#2f9e57", "#d8402f", "#f2b632", "#2b6fd6"],
+      "materials": [
+        "station-sign enamel navy shell",
+        "concrete-grey work ground",
+        "line colours as data"
+      ],
+      "viewport": "Navy sign-band header with standard tabs; the hypothesis set like a station name; a route strip runs from the 50% start through each quote as a stop to the current score; Supports and Disproves columns below.",
+      "risk": "If the route strip is drawn timidly it reads as a plain timeline, and the world shrinks to a colour scheme.",
+      "raised": [
+        {
+          "from": "challenger-exposure",
+          "raise": "Contested hypotheses fork their line, so conflict reads in the drawing itself, not only in red versus green."
+        },
+        {
+          "from": "challenger-annual",
+          "raise": "One type family carries everything from station name to caption; 1px hairlines replace card boxes and shadows."
+        },
+        {
+          "from": "challenger-doujin",
+          "raise": "The hypothesis board packs every hypothesis edge to edge in whole cells instead of airy cards."
+        },
+        {
+          "from": "challenger-crouwel",
+          "raise": "Every dimension snaps to one 8px module; nothing sits off the grid."
+        },
+        {
+          "from": "challenger-laban",
+          "raise": "Length is exact quantity: each stop's segment on the route is proportional to that quote's weight."
+        }
+      ],
+      "html": ".impeccable/mocks/decision/assigned.html"
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "label": "Evidence Cards",
+      "kicker": "IMPECCABLE\u2019S PICK",
+      "lineage": "policy debate evidence cards and the flowsheet",
+      "thesis": "Every quote is cut like a debate card: tag, cite, and the highlighted words that count.",
+      "palette": ["#fbfaf7", "#1a1a1a", "#ffe94d", "#2a55c9", "#c8302a"],
+      "materials": ["highlighter over body text", "two-pen flowsheet columns"],
+      "viewport": "The hypothesis as the tag line, then Aff and Neg columns of cards with the extracted quote highlighted inside its surrounding context.",
+      "risk": "The most familiar fit for 'quotes first'; the highlighter can read as a study app.",
+      "html": ".impeccable/mocks/decision/model-pick.html"
+    },
+    {
+      "id": "challenger-rail",
+      "kind": "challenger",
+      "catalogId": "rw-centre-rail-reference-setting",
+      "label": "Centre Rail",
+      "verdict": "competitive",
+      "lineage": "wide-margin reference editions",
+      "thesis": "Supports and Disproves set as twin columns around a centre rail of source keys.",
+      "palette": ["#f1ece2", "#1b1a17", "#c4422b"],
+      "materials": ["hairline rules at one device pixel", "rubric vermilion keys"],
+      "viewport": "Twin quote columns around a narrow vermilion rail; score and apparatus hang in the wide margin.",
+      "case": "Holds product clarity: for and against become the page's own symmetry. Loses on audience: reads as a scholarly edition.",
+      "risk": "Lands squarely in the 'too academic' you ruled out.",
+      "hero": "https://impeccable.style/worlds/cards/rw-centre-rail-reference-setting-hero.webp",
+      "html": ".impeccable/mocks/decision/challenger-rail.html"
+    },
+    {
+      "id": "challenger-exposure",
+      "kind": "challenger",
+      "catalogId": "operate-b-exposure-record-zone-sheets",
+      "label": "Exposure Record",
+      "verdict": "declined",
+      "lineage": "darkroom exposure records",
+      "thesis": "Evidence as overlapping translucent sheets with hatch densities.",
+      "palette": ["#e8e6e1", "#2a2a2a", "#c2187a"],
+      "materials": ["tracing paper", "hatch layers"],
+      "viewport": "Stacked sheets over a zone ramp.",
+      "risk": "Founders do not live in darkrooms.",
+      "case": "Loses both axes: no audience tie, and hatch density hides the quotes.",
+      "kept": "Conflict drawn structurally: contested lines fork.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets-hero.webp"
+    },
+    {
+      "id": "challenger-annual",
+      "kind": "challenger",
+      "catalogId": "design-annual-s-plate-section",
+      "label": "Design Annual",
+      "verdict": "declined",
+      "lineage": "design annual plate sections",
+      "thesis": "Each hypothesis as a registered plate on uncoated stock.",
+      "palette": ["#f5f4f6", "#16181a", "#dcddf3"],
+      "materials": ["registration crosshairs", "hairlines"],
+      "viewport": "Plates on one continuous sheet.",
+      "risk": "A showcase, not a working tool.",
+      "case": "Loses both axes: gallery framing slows reading evidence.",
+      "kept": "One type family throughout; hairlines instead of boxes.",
+      "hero": "https://impeccable.style/worlds/cards/design-annual-s-plate-section-hero.webp"
+    },
+    {
+      "id": "challenger-doujin",
+      "kind": "challenger",
+      "catalogId": "pop-culture-shelf-doujin-event-catalog",
+      "label": "Circle Catalog",
+      "verdict": "declined",
+      "lineage": "convention circle catalogs",
+      "thesis": "Every source as a stamp-sized cell in a packed grid.",
+      "palette": ["#e9e6dc", "#111111", "#2b8a8a"],
+      "materials": ["newsprint", "biro circles"],
+      "viewport": "Hundreds of cells on one page.",
+      "risk": "Noise where quotes need room.",
+      "case": "Loses both axes: density without legible quotes.",
+      "kept": "Density courage: the board packs whole cells edge to edge.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-doujin-event-catalog-hero.webp"
+    },
+    {
+      "id": "challenger-crouwel",
+      "kind": "challenger",
+      "catalogId": "crouwel-grid-specimen",
+      "label": "Grid Specimen",
+      "verdict": "declined",
+      "lineage": "Wim Crouwel grid specimens",
+      "thesis": "Scores built cell by cell on a visible grid.",
+      "palette": ["#ffffff", "#1a1a1a", "#2c5bd8"],
+      "materials": ["construction grid"],
+      "viewport": "Monumental grid-built numerals.",
+      "risk": "Display type fights a working screen.",
+      "case": "Loses both axes: poster logic, no founder tie.",
+      "kept": "One 8px module; nothing off-grid.",
+      "hero": "https://impeccable.style/worlds/cards/crouwel-grid-specimen-hero.webp"
+    },
+    {
+      "id": "challenger-laban",
+      "kind": "challenger",
+      "catalogId": "notation-diagram-systems-labanotation",
+      "label": "Dance Score",
+      "verdict": "declined",
+      "lineage": "Labanotation",
+      "thesis": "For and against as mirrored columns, time read upward.",
+      "palette": ["#ffffff", "#111111", "#cfcfcf"],
+      "materials": ["shaded symbol blocks"],
+      "viewport": "A vertical staff with flanking columns.",
+      "risk": "Upward time confuses readers.",
+      "case": "Loses both axes: notation founders cannot read.",
+      "kept": "Length encodes exact quantity.",
+      "hero": "https://impeccable.style/worlds/cards/notation-diagram-systems-labanotation-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": false
+  },
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "The category standard",
+    "thesis": "A clean research dashboard in the Linear and Vercel register, executed impeccably.",
+    "palette": ["#ffffff", "#0f1115", "#5b5bd6"],
+    "materials": ["neutral grid", "soft borders"],
+    "viewport": "Sidebar nav, header with score, two quote columns in bordered panels.",
+    "risk": "This is the generic SaaS look you ruled out, by design.",
+    "html": ".impeccable/mocks/decision/canon.html"
+  },
+  "steer": true
+}

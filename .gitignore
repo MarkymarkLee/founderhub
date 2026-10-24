@@ -30,3 +30,7 @@ dist-ssr
 .env
 .env.*
 !.env.example
+
+# Private keys
+secret/
+*.pem

@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T17:25:27Z",
+  "title": "Design System: FounderHub",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Concrete Ground",
+        "canonical": "#e9e7e2",
+        "cssVar": "--ground",
+        "dark": "#0d1522",
+        "tonalRamp": [
+          "oklch(15% 0.004 88.6)",
+          "oklch(26.4% 0.005 88.6)",
+          "oklch(37.9% 0.007 88.6)",
+          "oklch(49.3% 0.007 88.6)",
+          "oklch(60.7% 0.007 88.6)",
+          "oklch(72.1% 0.006 88.6)",
+          "oklch(83.6% 0.004 88.6)",
+          "oklch(95% 0.001 88.6)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Paper Panel",
+        "canonical": "#f6f5f2",
+        "cssVar": "--panel",
+        "dark": "#131e30",
+        "tonalRamp": [
+          "oklch(15% 0.002 91.4)",
+          "oklch(26.4% 0.003 91.4)",
+          "oklch(37.9% 0.004 91.4)",
+          "oklch(49.3% 0.004 91.4)",
+          "oklch(60.7% 0.004 91.4)",
+          "oklch(72.1% 0.003 91.4)",
+          "oklch(83.6% 0.002 91.4)",
+          "oklch(95% 0.001 91.4)"
+        ]
+      },
+      "sunk": {
+        "role": "neutral",
+        "displayName": "Sunk Concrete",
+        "canonical": "#dddad3",
+        "cssVar": "--sunk",
+        "dark": "#1a2840",
+        "tonalRamp": [
+          "oklch(15% 0.005 87.5)",
+          "oklch(26.4% 0.008 87.5)",
+          "oklch(37.9% 0.009 87.5)",
+          "oklch(49.3% 0.01 87.5)",
+          "oklch(60.7% 0.01 87.5)",
+          "oklch(72.1% 0.008 87.5)",
+          "oklch(83.6% 0.006 87.5)",
+          "oklch(95% 0.002 87.5)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#14171c",
+        "cssVar": "--ink",
+        "dark": "#eceef2",
+        "tonalRamp": [
+          "oklch(15% 0.006 260.7)",
+          "oklch(26.4% 0.009 260.7)",
+          "oklch(37.9% 0.01 260.7)",
+          "oklch(49.3% 0.011 260.7)",
+          "oklch(60.7% 0.011 260.7)",
+          "oklch(72.1% 0.009 260.7)",
+          "oklch(83.6% 0.006 260.7)",
+          "oklch(95% 0.002 260.7)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Two",
+        "canonical": "#353a45",
+        "cssVar": "--ink-2",
+        "dark": "#c9ced8",
+        "tonalRamp": [
+          "oklch(15% 0.01 266)",
+          "oklch(26.4% 0.016 266)",
+          "oklch(37.9% 0.019 266)",
+          "oklch(49.3% 0.02 266)",
+          "oklch(60.7% 0.019 266)",
+          "oklch(72.1% 0.016 266)",
+          "oklch(83.6% 0.011 266)",
+          "oklch(95% 0.004 266)"
+        ]
+      },
+      "mute": {
+        "role": "neutral",
+        "displayName": "Mute",
+        "canonical": "#555a66",
+        "cssVar": "--mute",
+        "dark": "#98a1b3",
+        "tonalRamp": [
+          "oklch(15% 0.01 267.6)",
+          "oklch(26.4% 0.016 267.6)",
+          "oklch(37.9% 0.019 267.6)",
+          "oklch(49.3% 0.02 267.6)",
+          "oklch(60.7% 0.019 267.6)",
+          "oklch(72.1% 0.016 267.6)",
+          "oklch(83.6% 0.011 267.6)",
+          "oklch(95% 0.004 267.6)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#c9c6be",
+        "cssVar": "--rule",
+        "dark": "#26354f",
+        "tonalRamp": [
+          "oklch(15% 0.006 89.7)",
+          "oklch(26.4% 0.009 89.7)",
+          "oklch(37.9% 0.011 89.7)",
+          "oklch(49.3% 0.012 89.7)",
+          "oklch(60.7% 0.011 89.7)",
+          "oklch(72.1% 0.009 89.7)",
+          "oklch(83.6% 0.006 89.7)",
+          "oklch(95% 0.002 89.7)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#8b8880",
+        "cssVar": "--rule-strong",
+        "dark": "#4a5b7a",
+        "tonalRamp": [
+          "oklch(15% 0.006 89.8)",
+          "oklch(26.4% 0.01 89.8)",
+          "oklch(37.9% 0.012 89.8)",
+          "oklch(49.3% 0.012 89.8)",
+          "oklch(60.7% 0.012 89.8)",
+          "oklch(72.1% 0.01 89.8)",
+          "oklch(83.6% 0.007 89.8)",
+          "oklch(95% 0.002 89.8)"
+        ]
+      },
+      "sign": {
+        "role": "primary",
+        "displayName": "Station-Sign Navy",
+        "canonical": "#14233c",
+        "cssVar": "--sign",
+        "dark": "#1b2f50",
+        "tonalRamp": [
+          "oklch(15% 0.026 260.1)",
+          "oklch(26.4% 0.04 260.1)",
+          "oklch(37.9% 0.049 260.1)",
+          "oklch(49.3% 0.052 260.1)",
+          "oklch(60.7% 0.049 260.1)",
+          "oklch(72.1% 0.042 260.1)",
+          "oklch(83.6% 0.028 260.1)",
+          "oklch(95% 0.01 260.1)"
+        ]
+      },
+      "sign-2": {
+        "role": "primary",
+        "displayName": "Sign Navy Lift",
+        "canonical": "#24395c",
+        "cssVar": "--sign-2",
+        "dark": "#2a4370",
+        "tonalRamp": [
+          "oklch(15% 0.034 260.1)",
+          "oklch(26.4% 0.052 260.1)",
+          "oklch(37.9% 0.063 260.1)",
+          "oklch(49.3% 0.067 260.1)",
+          "oklch(60.7% 0.064 260.1)",
+          "oklch(72.1% 0.054 260.1)",
+          "oklch(83.6% 0.037 260.1)",
+          "oklch(95% 0.013 260.1)"
+        ]
+      },
+      "sign-ink": {
+        "role": "neutral",
+        "displayName": "Sign Text",
+        "canonical": "#ffffff",
+        "cssVar": "--sign-ink",
+        "dark": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "sign-mute": {
+        "role": "neutral",
+        "displayName": "Sign Mute",
+        "canonical": "#b9c3d6",
+        "cssVar": "--sign-mute",
+        "dark": "#98a6bf",
+        "tonalRamp": [
+          "oklch(15% 0.015 263.4)",
+          "oklch(26.4% 0.022 263.4)",
+          "oklch(37.9% 0.027 263.4)",
+          "oklch(49.3% 0.029 263.4)",
+          "oklch(60.7% 0.028 263.4)",
+          "oklch(72.1% 0.023 263.4)",
+          "oklch(83.6% 0.016 263.4)",
+          "oklch(95% 0.005 263.4)"
+        ]
+      },
+      "sup": {
+        "role": "secondary",
+        "displayName": "Supports Green",
+        "canonical": "#217a45",
+        "cssVar": "--sup",
+        "dark": "#4cc27b",
+        "tonalRamp": [
+          "oklch(15% 0.06 152.7)",
+          "oklch(26.4% 0.091 152.7)",
+          "oklch(37.9% 0.11 152.7)",
+          "oklch(49.3% 0.117 152.7)",
+          "oklch(60.7% 0.112 152.7)",
+          "oklch(72.1% 0.094 152.7)",
+          "oklch(83.6% 0.064 152.7)",
+          "oklch(95% 0.022 152.7)"
+        ]
+      },
+      "dis": {
+        "role": "secondary",
+        "displayName": "Disproves Red",
+        "canonical": "#bf3528",
+        "cssVar": "--dis",
+        "dark": "#f07264",
+        "tonalRamp": [
+          "oklch(15% 0.09 29.5)",
+          "oklch(26.4% 0.138 29.5)",
+          "oklch(37.9% 0.166 29.5)",
+          "oklch(49.3% 0.177 29.5)",
+          "oklch(60.7% 0.169 29.5)",
+          "oklch(72.1% 0.142 29.5)",
+          "oklch(83.6% 0.097 29.5)",
+          "oklch(95% 0.034 29.5)"
+        ]
+      },
+      "line-yellow": {
+        "role": "tertiary",
+        "displayName": "Research Yellow",
+        "canonical": "#f2b632",
+        "cssVar": "--line-yellow",
+        "dark": "#f2b632",
+        "tonalRamp": [
+          "oklch(15% 0.078 82.1)",
+          "oklch(26.4% 0.119 82.1)",
+          "oklch(37.9% 0.144 82.1)",
+          "oklch(49.3% 0.153 82.1)",
+          "oklch(60.7% 0.146 82.1)",
+          "oklch(72.1% 0.123 82.1)",
+          "oklch(83.6% 0.084 82.1)",
+          "oklch(95% 0.029 82.1)"
+        ]
+      },
+      "line-red": {
+        "role": "tertiary",
+        "displayName": "Strategy Red",
+        "canonical": "#d8402f",
+        "cssVar": "--line-red",
+        "dark": "#ea5a49",
+        "tonalRamp": [
+          "oklch(15% 0.098 30.1)",
+          "oklch(26.4% 0.149 30.1)",
+          "oklch(37.9% 0.18 30.1)",
+          "oklch(49.3% 0.192 30.1)",
+          "oklch(60.7% 0.183 30.1)",
+          "oklch(72.1% 0.154 30.1)",
+          "oklch(83.6% 0.105 30.1)",
+          "oklch(95% 0.036 30.1)"
+        ]
+      },
+      "line-green": {
+        "role": "tertiary",
+        "displayName": "Growth Green",
+        "canonical": "#2f9e57",
+        "cssVar": "--line-green",
+        "dark": "#3fb46a",
+        "tonalRamp": [
+          "oklch(15% 0.074 151.3)",
+          "oklch(26.4% 0.113 151.3)",
+          "oklch(37.9% 0.136 151.3)",
+          "oklch(49.3% 0.145 151.3)",
+          "oklch(60.7% 0.138 151.3)",
+          "oklch(72.1% 0.116 151.3)",
+          "oklch(83.6% 0.08 151.3)",
+          "oklch(95% 0.028 151.3)"
+        ]
+      },
+      "line-blue": {
+        "role": "tertiary",
+        "displayName": "Operations Blue",
+        "canonical": "#2b6fd6",
+        "cssVar": "--line-blue",
+        "dark": "#5b93ea",
+        "tonalRamp": [
+          "oklch(15% 0.088 258.9)",
+          "oklch(26.4% 0.134 258.9)",
+          "oklch(37.9% 0.162 258.9)",
+          "oklch(49.3% 0.173 258.9)",
+          "oklch(60.7% 0.165 258.9)",
+          "oklch(72.1% 0.139 258.9)",
+          "oklch(83.6% 0.095 258.9)",
+          "oklch(95% 0.033 258.9)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action Navy",
+        "canonical": "#14233c",
+        "cssVar": "--action",
+        "dark": "#e9e7e2",
+        "tonalRamp": [
+          "oklch(15% 0.026 260.1)",
+          "oklch(26.4% 0.04 260.1)",
+          "oklch(37.9% 0.049 260.1)",
+          "oklch(49.3% 0.052 260.1)",
+          "oklch(60.7% 0.049 260.1)",
+          "oklch(72.1% 0.042 260.1)",
+          "oklch(83.6% 0.028 260.1)",
+          "oklch(95% 0.01 260.1)"
+        ]
+      },
+      "action-ink": {
+        "role": "primary",
+        "displayName": "Action Ink",
+        "canonical": "#ffffff",
+        "cssVar": "--action-ink",
+        "dark": "#0d1522",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(26.4% 0 89.9)",
+          "oklch(37.9% 0 89.9)",
+          "oklch(49.3% 0 89.9)",
+          "oklch(60.7% 0 89.9)",
+          "oklch(72.1% 0 89.9)",
+          "oklch(83.6% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Navy Lift",
+        "canonical": "#24395c",
+        "cssVar": "--action-hover",
+        "dark": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.034 260.1)",
+          "oklch(26.4% 0.052 260.1)",
+          "oklch(37.9% 0.063 260.1)",
+          "oklch(49.3% 0.067 260.1)",
+          "oklch(60.7% 0.064 260.1)",
+          "oklch(72.1% 0.054 260.1)",
+          "oklch(83.6% 0.037 260.1)",
+          "oklch(95% 0.013 260.1)"
+        ]
+      },
+      "accent": {
+        "role": "tertiary",
+        "displayName": "Signal Blue",
+        "canonical": "#1f5fbf",
+        "cssVar": "--accent",
+        "dark": "#7aa9f0",
+        "tonalRamp": [
+          "oklch(15% 0.084 259)",
+          "oklch(26.4% 0.128 259)",
+          "oklch(37.9% 0.154 259)",
+          "oklch(49.3% 0.164 259)",
+          "oklch(60.7% 0.157 259)",
+          "oklch(72.1% 0.132 259)",
+          "oklch(83.6% 0.09 259)",
+          "oklch(95% 0.031 259)"
+        ]
+      },
+      "accent-strong": {
+        "role": "tertiary",
+        "displayName": "Signal Blue Deep",
+        "canonical": "#184c99",
+        "cssVar": "--accent-strong",
+        "dark": "#9cc0f5",
+        "tonalRamp": [
+          "oklch(15% 0.07 258.8)",
+          "oklch(26.4% 0.107 258.8)",
+          "oklch(37.9% 0.129 258.8)",
+          "oklch(49.3% 0.137 258.8)",
+          "oklch(60.7% 0.131 258.8)",
+          "oklch(72.1% 0.111 258.8)",
+          "oklch(83.6% 0.075 258.8)",
+          "oklch(95% 0.026 258.8)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Signed-out landing headline only; 2.25rem below md."
+      },
+      "score": {
+        "displayName": "Score",
+        "purpose": "Large hypothesis score in font-num, coloured sup or dis."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Hypothesis statement beside the large route bullet; 1.875rem below md."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Page titles; 1.5rem below md on most tabs."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Section headings, buttons and tabs."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Working text size of the app."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Quote bodies in ink-2."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Pills, stance labels, table heads, hints."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "font-num: tabular Overpass for every number."
+      },
+      "map-label": {
+        "displayName": "Map label",
+        "purpose": "Uppercase station labels on the route strip; small route bullet letter."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Overpass Mono for tool names, URLs, prompts and page source only."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing curve: rises, draws, meters and the score ticker."
+      },
+      {
+        "name": "rise",
+        "value": "rise 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "New feed items, quotes and handoffs fade up 8px into place."
+      },
+      {
+        "name": "route-draw",
+        "value": "route-draw 1.1s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The newest route-strip segment draws itself in (stroke-dashoffset)."
+      },
+      {
+        "name": "meter",
+        "value": "transform 900ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Score bars scale to new values; the score numeral ticks over 0.9s."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disables draw, rise, pulse, meter transitions and the ticker."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "lines": [
+      {
+        "name": "line-rule",
+        "value": "4px",
+        "purpose": "Four-colour strip under the sign band; fleet team lines; fresh bar; active-tab marker."
+      },
+      {
+        "name": "section-rule",
+        "value": "2px solid var(--ink)",
+        "purpose": "Top of every ruled card and table head."
+      },
+      {
+        "name": "stance-rule",
+        "value": "4px",
+        "purpose": "Under Supports and Disproves column headings, in sup or dis."
+      },
+      {
+        "name": "route-stroke",
+        "value": "8px round caps, 45deg bends",
+        "purpose": "Route strip segments."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "One per region: the main action, e.g. Ask scouts for more.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72 72.08 72.08 0 0 1-72-72Z\"/></svg>Ask scouts for more</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;padding:0 16px;border-radius:4px;font:700 14px/1 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;white-space:nowrap;border:0;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s,transform .15s}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.ds-btn-primary{background:var(--action);color:var(--action-ink)}.ds-btn-primary:hover{background:var(--action-hover)}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Default button: hairline outlined plate.",
+      "html": "<button class=\"ds-btn2\">Edit</button>",
+      "css": ".ds-btn2{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:4px;border:1px solid var(--rule-strong);background:transparent;color:var(--ink);font:700 14px/1 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:border-color .15s,transform .15s}.ds-btn2:hover{border-color:var(--ink)}.ds-btn2:active{transform:translateY(1px)}.ds-btn2:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Back links and cancel.",
+      "html": "<button class=\"ds-btn3\">Cancel</button>",
+      "css": ".ds-btn3{display:inline-flex;align-items:center;height:40px;padding:0 16px;border:0;border-radius:4px;background:transparent;color:var(--mute);font:700 14px/1 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:color .15s}.ds-btn3:hover{color:var(--ink)}.ds-btn3:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled input; focus darkens the border to ink.",
+      "html": "<label class=\"ds-field\"><span>What would disprove it?</span><input class=\"ds-input\" placeholder=\"Fewer than 1 in 5 name a price\"></label>",
+      "css": ".ds-field{display:grid;gap:8px;font:400 14px/1.43 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;color:var(--ink)}.ds-field>span{font-weight:700}.ds-input{width:100%;box-sizing:border-box;border-radius:4px;border:1px solid var(--rule-strong);background:var(--panel);padding:8px 12px;font:inherit;color:var(--ink);caret-color:var(--accent)}.ds-input::placeholder{color:var(--mute)}.ds-input:focus{border-color:var(--ink);outline:none}"
+    },
+    {
+      "name": "Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Status label, outlined in its own colour, never filled.",
+      "html": "<span class=\"ds-pill ds-pill-dis\">weak</span> <span class=\"ds-pill ds-pill-sup\">holds</span> <span class=\"ds-pill\">draft</span>",
+      "css": ".ds-pill{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 8px;border:1px solid currentColor;border-radius:4px;color:var(--ink-2);font:700 12px/1 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;white-space:nowrap}.ds-pill-sup{color:var(--sup)}.ds-pill-dis{color:var(--dis)}"
+    },
+    {
+      "name": "Sign Band",
+      "kind": "nav",
+      "refersTo": "sign-band",
+      "description": "Navy shell band with yellow top-bar tab marker over the four-colour line rule.",
+      "html": "<header class=\"ds-band\"><div class=\"ds-band-row\"><span class=\"ds-mark\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"4\" fill=\"#14233c\"/><path d=\"M5 23h7l8-8\" fill=\"none\" stroke=\"#f2b632\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"23\" cy=\"12\" r=\"4.5\" fill=\"#fff\" stroke=\"#2f9e57\" stroke-width=\"3\"/></svg>FounderHub</span><nav class=\"ds-tabs\"><button aria-current=\"page\">Hypotheses</button><button>Customers</button><button>Market</button></nav></div><div class=\"ds-linerule\"><i style=\"background:var(--line-yellow)\"></i><i style=\"background:var(--line-red)\"></i><i style=\"background:var(--line-green)\"></i><i style=\"background:var(--line-blue)\"></i></div></header>",
+      "css": ".ds-band{font-family:\"Overpass Variable\",ui-sans-serif,system-ui,sans-serif}.ds-band-row{display:flex;align-items:stretch;gap:24px;height:64px;padding:0 32px;background:var(--sign);color:var(--sign-ink)}.ds-mark{display:flex;align-items:center;gap:8px;font-weight:800;letter-spacing:-0.025em}.ds-tabs{display:flex}.ds-tabs button{display:flex;align-items:center;padding:0 16px 4px;border:0;border-top:4px solid transparent;background:none;color:var(--sign-mute);font:700 14px/1 inherit;font-family:inherit;cursor:pointer;transition:color .15s}.ds-tabs button:hover{color:var(--sign-ink)}.ds-tabs button[aria-current]{border-top-color:var(--line-yellow);color:var(--sign-ink)}.ds-tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.ds-linerule{display:flex;height:4px}.ds-linerule i{flex:1}"
+    },
+    {
+      "name": "Ruled Card",
+      "kind": "card",
+      "refersTo": "card-ruled",
+      "description": "Default section: a 2px ink rule on top, no box.",
+      "html": "<section class=\"ds-ruled\"><h2>How quotes are weighed</h2><p>Each quote counts its source weight times the extractor’s confidence.</p></section>",
+      "css": ".ds-ruled{border-top:2px solid var(--ink);padding-top:20px;color:var(--ink);font:400 14px/1.43 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif}.ds-ruled h2{margin:0 0 12px;font-size:16px;font-weight:700}.ds-ruled p{margin:0;color:var(--mute)}"
+    },
+    {
+      "name": "Score Bar",
+      "kind": "custom",
+      "refersTo": "score-bar",
+      "description": "Green at 50 or above, red below, with an ink tick at the 50% start.",
+      "html": "<div class=\"ds-score\"><div class=\"ds-track\"><div class=\"ds-fill\" style=\"transform:scaleX(.33)\"></div><span class=\"ds-tick\"></span></div><span class=\"ds-num\">33%</span></div>",
+      "css": ".ds-score{display:flex;align-items:center;gap:12px;font-family:\"Overpass Variable\",ui-sans-serif,system-ui,sans-serif}.ds-track{position:relative;flex:1;height:8px;background:var(--sunk)}.ds-fill{height:100%;background:var(--dis);transform-origin:left;transition:transform .9s cubic-bezier(.16,1,.3,1)}.ds-tick{position:absolute;top:-3px;bottom:-3px;left:50%;width:1px;background:var(--ink)}.ds-num{width:40px;text-align:right;font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--ink)}"
+    },
+    {
+      "name": "Route Bullet",
+      "kind": "custom",
+      "refersTo": "route-bullet-lg",
+      "description": "Hypothesis type as a transit roundel.",
+      "html": "<span class=\"ds-bullet\">W</span> <span class=\"ds-bullet ds-bullet-sm\">Ch</span>",
+      "css": ".ds-bullet{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:9999px;background:var(--action);color:var(--action-ink);font:800 16px/1 \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif;letter-spacing:-0.025em}.ds-bullet-sm{width:24px;height:24px;font-size:11px}"
+    },
+    {
+      "name": "Route Strip",
+      "kind": "custom",
+      "refersTo": "route-strip",
+      "description": "Score history as a transit line: stance-coloured 8px segments bending at 45° into ringed stops.",
+      "html": "<div class=\"ds-strip\"><svg viewBox=\"0 0 560 168\" width=\"560\" height=\"168\" aria-hidden=\"true\"><line x1=\"32\" x2=\"528\" y1=\"84\" y2=\"84\" stroke=\"var(--rule)\" stroke-dasharray=\"2 6\"/><path d=\"M32 84 H140 L157 67\" fill=\"none\" stroke=\"var(--sup)\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M157 67 H330 L377 114\" fill=\"none\" stroke=\"var(--dis)\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M377 114 H470 L499 85\" fill=\"none\" stroke=\"var(--sup)\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"32\" cy=\"84\" r=\"8\" fill=\"var(--panel)\" stroke=\"var(--ink)\" stroke-width=\"4\"/><circle cx=\"157\" cy=\"67\" r=\"8\" fill=\"var(--panel)\" stroke=\"var(--sup)\" stroke-width=\"4\"/><circle cx=\"377\" cy=\"114\" r=\"8\" fill=\"var(--panel)\" stroke=\"var(--dis)\" stroke-width=\"4\"/><circle cx=\"499\" cy=\"85\" r=\"14\" fill=\"var(--panel)\" stroke=\"var(--ink)\" stroke-width=\"6\"/><text x=\"32\" y=\"110\" class=\"ds-st\">START 50%</text><text x=\"157\" y=\"51\" text-anchor=\"middle\" class=\"ds-st\">REDDIT 67%</text><text x=\"377\" y=\"140\" text-anchor=\"middle\" class=\"ds-st\">EMAIL REPLIES 21%</text></svg></div>",
+      "css": ".ds-strip{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}.ds-strip svg{display:block;max-width:100%;height:auto}.ds-st{fill:var(--mute);font:700 11px \"Overpass Variable\",ui-sans-serif,system-ui,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Line Map",
+    "overview": "FounderHub reads like a transit system's wayfinding. A navy station-sign band carries the wordmark and tabs; under it runs a four-colour line rule, one segment per agent team; below that is a concrete-grey work ground where evidence is laid out on hairlines rather than in boxes. Every hypothesis is a line: quotes are its stops, and the score is where the line ends up.\n\nColour is never decoration. Green means a quote supports, red means it disproves, and yellow, red, green and blue mark the Research, Strategy, Growth and Operations teams. One signage face, Overpass, carries everything including numerals, which are set with tabular figures. Controls are square-ish, panels are not rounded at all, and nothing casts a shadow. The surface is dense and calm, built for a founder glancing in between building sessions.\n\nThe system rejects the zinc admin dashboard of rounded cards and a single orange accent that it replaced.",
+    "keyCharacteristics": [
+      "Navy sign band over a four-colour line rule, on a concrete-grey ground.",
+      "Sections are separated by rules (2px ink on top, 1px hairlines between), not boxes.",
+      "Line colours carry meaning: stance (supports / disproves) and team.",
+      "One type family, Overpass; tabular numerals; Overpass Mono only for code.",
+      "Round route bullets and station rings; everything else is square or 4px.",
+      "Flat. No shadows anywhere; depth comes from the band, rules and tone."
+    ],
+    "rules": [
+      {
+        "name": "The Lines Do Jobs Rule",
+        "body": "A saturated colour always means something: stance (sup / dis) or team (the four line colours). Never use one as decoration, and never use a team colour to mean stance.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Reds Rule",
+        "body": "Disproves Red (dis) and Strategy Red (line-red) are separate tokens. Evidence and errors take dis; the Strategy team takes line-red. Do not swap them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Error Is Disproof Rule",
+        "body": "Errors are plain text in Disproves Red with role=\"alert\". No error boxes, no icons, no toasts.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Signage Face Rule",
+        "body": "Overpass sets every word and number. There is no second display or body face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numerals Rule",
+        "body": "Scores, money, counts and times use font-num, which is tabular Overpass. Never set numbers in Overpass Mono; it spaces decimals into \"1 . 5\". Mono is for code only.",
+        "section": "typography"
+      },
+      {
+        "name": "The Station Caps Rule",
+        "body": "Uppercase is reserved for station labels drawn on a line map. Headings and labels elsewhere stay in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The 8px Module Rule",
+        "body": "Space in steps of 8px. Use 4px only to pair a label with its value.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Shadow Rule",
+        "body": "Nothing casts a shadow. To separate something, use a rule, a hairline or a step in tone.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Rule, Not Box Rule",
+        "body": "A section is a 2px ink rule with content beneath it, not a bordered box. Only live panels (the agent fleet and the idea chat) are boxed.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do colour every score, score bar and stance mark by the 50 threshold: sup at 50 or above, dis below.",
+      "Do separate sections with a 2px ink rule on top and items with 1px hairlines.",
+      "Do set every number in font-num with tabular figures.",
+      "Do put the four-colour line rule under every sign band.",
+      "Do give interactive controls a 4px corner and keep panels square.",
+      "Do honour prefers-reduced-motion for every draw, rise, pulse and tick."
+    ],
+    "donts": [
+      "Don't use a line colour as decoration, or a team colour to mean supports or disproves.",
+      "Don't use a box shadow, gradient or glow.",
+      "Don't set numerals in Overpass Mono, or use mono for anything but code.",
+      "Don't box a section; boxed cards are for the fleet panel and the idea chat only.",
+      "Don't fill a status pill; pills are outlined in their own colour.",
+      "Don't set uppercase labels or kickers above headings; caps belong only to station labels on a line map.",
+      "Don't introduce a second typeface or a rounded card radius."
+    ]
+  }
+}

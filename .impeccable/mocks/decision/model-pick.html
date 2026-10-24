@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --paper: #fbfaf7;
+        --ink: #1a1a1a;
+        --mute: #5d5a55;
+        --rule: #d9d5cc;
+        --hl: #ffe94d;
+        --aff: #2a55c9;
+        --neg: #c8302a;
+      }
+      body {
+        width: 1440px;
+        height: 900px;
+        overflow: hidden;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Public Sans", system-ui, sans-serif;
+      }
+      header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        padding: 0 40px;
+        border-bottom: 1px solid var(--rule);
+      }
+      .mark {
+        font-weight: 800;
+        font-size: 18px;
+      }
+      nav {
+        display: flex;
+        gap: 24px;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--mute);
+      }
+      nav .on {
+        color: var(--ink);
+        box-shadow: inset 0 -3px 0 var(--ink);
+        padding: 19px 0;
+      }
+      main {
+        padding: 32px 40px;
+      }
+      .tag {
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--mute);
+      }
+      h1 {
+        font-size: 38px;
+        font-weight: 800;
+        line-height: 1.12;
+        letter-spacing: -0.02em;
+        max-width: 26ch;
+        margin-top: 10px;
+      }
+      .meta {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-top: 18px;
+      }
+      .meter {
+        width: 360px;
+        height: 10px;
+        background: #ebe7de;
+        position: relative;
+      }
+      .meter i {
+        position: absolute;
+        inset: 0 67% 0 0;
+        background: var(--ink);
+      }
+      .meta b {
+        font-size: 28px;
+        font-weight: 800;
+      }
+      .meta p {
+        font-size: 14px;
+        color: var(--mute);
+      }
+      .flow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-top: 32px;
+      }
+      .flow h2 {
+        font-size: 15px;
+        font-weight: 800;
+        padding-bottom: 10px;
+        border-bottom: 3px solid var(--aff);
+        color: var(--aff);
+      }
+      .neg h2 {
+        border-color: var(--neg);
+        color: var(--neg);
+      }
+      .card {
+        padding: 16px 0;
+        border-bottom: 1px solid var(--rule);
+      }
+      .card .t {
+        font-weight: 800;
+        font-size: 16px;
+      }
+      .card .c {
+        font-size: 13px;
+        color: var(--mute);
+        margin-top: 4px;
+      }
+      .card .c b {
+        color: var(--ink);
+      }
+      .card .body {
+        font-family: "Source Serif 4", serif;
+        font-size: 14px;
+        line-height: 1.55;
+        color: #8a857c;
+        margin-top: 8px;
+      }
+      .card mark {
+        background: var(--hl);
+        color: var(--ink);
+        font-size: 16px;
+        padding: 0 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="mark">FounderHub</span>
+      <nav>
+        <span class="on">Hypotheses</span><span>Customers</span><span>Market</span
+        ><span>Report</span><span>Activity</span>
+      </nav>
+    </header>
+    <main>
+      <p class="tag">Willingness to pay · Disproved if fewer than 1 in 5 name $15+</p>
+      <h1>Student founders will pay $20 a month for research they can trust.</h1>
+      <div class="meta">
+        <div class="meter"><i></i></div>
+        <b>33%</b>
+        <p>9 cards cut from 4 kinds of source · down from 62%</p>
+      </div>
+      <div class="flow">
+        <section>
+          <h2>Aff · Supports 3</h2>
+          <div class="card">
+            <p class="t">Price is fine if it replaces a weekend of research</p>
+            <p class="c"><b>Reddit, r/startups</b> · Oct 21 · Source ↗</p>
+            <p class="body">
+              Been trying to size my market for a pitch.
+              <mark
+                >Twenty bucks a month is fine if it saves me a weekend of Googling market
+                reports.</mark
+              >
+              Anything more and I'd just do it myself.
+            </p>
+          </div>
+          <div class="card">
+            <p class="t">Trust is the purchase trigger</p>
+            <p class="c"><b>Waitlist answer</b> · Oct 22 · Source ↗</p>
+            <p class="body">
+              <mark>I'd pay for it if every number links back to where it came from.</mark> Most
+              tools just make things up.
+            </p>
+          </div>
+        </section>
+        <section class="neg">
+          <h2>Neg · Disproves 6</h2>
+          <div class="card">
+            <p class="t">Students default to free tiers</p>
+            <p class="c"><b>Interview, Rosa (CS junior)</b> · Oct 24 · Transcript ↗</p>
+            <p class="body">
+              Honestly?
+              <mark
+                >Students don't pay for tools. We use free tiers until someone makes us, or until
+                the school pays.</mark
+              >
+              My club might cover part of it.
+            </p>
+          </div>
+          <div class="card">
+            <p class="t">Subscriptions do not survive the semester</p>
+            <p class="c"><b>Report, campus software survey</b> · Oct 20 · Source ↗</p>
+            <p class="body">
+              Students pay for software when a club or department covers part of the cost;
+              <mark>individual subscriptions churn after the semester.</mark>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

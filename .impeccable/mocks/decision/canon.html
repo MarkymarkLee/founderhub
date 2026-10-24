@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 1440px;
+        height: 900px;
+        overflow: hidden;
+        background: #fff;
+        color: #0f1115;
+        font-family: Inter, system-ui, sans-serif;
+        display: grid;
+        grid-template-columns: 240px 1fr;
+      }
+      aside {
+        border-right: 1px solid #ececf0;
+        padding: 20px 12px;
+        background: #fafafb;
+      }
+      aside b {
+        display: block;
+        padding: 0 8px 20px;
+        font-size: 15px;
+      }
+      aside a {
+        display: block;
+        padding: 8px;
+        border-radius: 6px;
+        font-size: 14px;
+        color: #55586a;
+      }
+      aside a.on {
+        background: #ececfb;
+        color: #3b3bb0;
+        font-weight: 500;
+      }
+      main {
+        padding: 32px 48px;
+      }
+      .k {
+        font-size: 12px;
+        color: #6b6e80;
+        font-weight: 500;
+      }
+      h1 {
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-top: 8px;
+        max-width: 32ch;
+      }
+      .row {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-top: 16px;
+      }
+      .bar {
+        width: 320px;
+        height: 6px;
+        border-radius: 3px;
+        background: #ececf0;
+      }
+      .bar i {
+        display: block;
+        width: 33%;
+        height: 100%;
+        border-radius: 3px;
+        background: #5b5bd6;
+      }
+      .row span {
+        font-size: 14px;
+        color: #55586a;
+      }
+      .btn {
+        margin-left: auto;
+        padding: 8px 14px;
+        border-radius: 8px;
+        background: #0f1115;
+        color: #fff;
+        font-size: 14px;
+      }
+      .cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin-top: 32px;
+      }
+      .panel {
+        border: 1px solid #ececf0;
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .panel h2 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .q {
+        margin-top: 16px;
+        padding: 14px;
+        border-radius: 8px;
+        background: #fafafb;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .q small {
+        display: block;
+        color: #6b6e80;
+        margin-top: 6px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <b>FounderHub</b><a class="on">Hypotheses</a><a>Customers</a><a>Market</a><a>Report</a
+      ><a>Activity</a><a>Settings</a>
+    </aside>
+    <main>
+      <p class="k">Willingness to pay</p>
+      <h1>Student founders will pay $20 a month for research they can trust.</h1>
+      <div class="row">
+        <div class="bar"><i></i></div>
+        <span>33% confidence · 9 quotes</span><span class="btn">Ask scouts for more</span>
+      </div>
+      <div class="cols">
+        <section class="panel">
+          <h2>Supports · 3</h2>
+          <div class="q">
+            “Twenty bucks a month is fine if it saves me a weekend of Googling market
+            reports.”<small>Reddit · Oct 21</small>
+          </div>
+          <div class="q">
+            “I'd pay for it if every number links back to where it came from.”<small
+              >Waitlist · Oct 22</small
+            >
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Disproves · 6</h2>
+          <div class="q">
+            “Students don't pay for tools. We use free tiers until someone makes us.”<small
+              >Interview · Rosa · Oct 24</small
+            >
+          </div>
+          <div class="q">
+            “Individual subscriptions churn after the semester.”<small>Report · Oct 20</small>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
